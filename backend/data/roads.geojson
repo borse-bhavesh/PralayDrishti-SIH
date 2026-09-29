@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "name": "Major Roads — Mithi Catchment",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JVLR West",
+        "type": "arterial",
+        "lanes": 4,
+        "flood_risk": "low",
+        "elevation_m": 12.0,
+        "description": "Jogeshwari–Vikhroli Link Road (West segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8400, 19.0800],
+          [72.8475, 19.0800],
+          [72.8550, 19.0800]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JVLR East",
+        "type": "arterial",
+        "lanes": 4,
+        "flood_risk": "medium",
+        "elevation_m": 10.0,
+        "description": "Jogeshwari–Vikhroli Link Road (East segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8550, 19.0800],
+          [72.8825, 19.0800],
+          [72.9100, 19.0800]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WEH North",
+        "type": "highway",
+        "lanes": 6,
+        "flood_risk": "low",
+        "elevation_m": 15.0,
+        "description": "Western Express Highway (North segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8550, 19.0800],
+          [72.8550, 19.1000],
+          [72.8550, 19.1200]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WEH Mid",
+        "type": "highway",
+        "lanes": 6,
+        "flood_risk": "high",
+        "elevation_m": 6.0,
+        "description": "Western Express Highway (Middle segment, prone to waterlogging)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8550, 19.0700],
+          [72.8550, 19.0750],
+          [72.8550, 19.0800]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WEH South",
+        "type": "highway",
+        "lanes": 6,
+        "flood_risk": "low",
+        "elevation_m": 12.0,
+        "description": "Western Express Highway (South segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8550, 19.0500],
+          [72.8550, 19.0600],
+          [72.8550, 19.0700]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AK Road",
+        "type": "arterial",
+        "lanes": 4,
+        "flood_risk": "high",
+        "elevation_m": 5.0,
+        "description": "Andheri–Kurla Road (Crosses Mithi River, severe waterlogging risk)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8550, 19.0700],
+          [72.8825, 19.0700],
+          [72.9100, 19.0700]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LBS North",
+        "type": "highway",
+        "lanes": 6,
+        "flood_risk": "medium",
+        "elevation_m": 9.0,
+        "description": "LBS Marg (North segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.9100, 19.0800],
+          [72.9100, 19.1000],
+          [72.9100, 19.1200]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LBS Mid",
+        "type": "highway",
+        "lanes": 6,
+        "flood_risk": "low",
+        "elevation_m": 11.0,
+        "description": "LBS Marg (Middle segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.9100, 19.0700],
+          [72.9100, 19.0750],
+          [72.9100, 19.0800]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LBS South",
+        "type": "highway",
+        "lanes": 6,
+        "flood_risk": "medium",
+        "elevation_m": 9.0,
+        "description": "LBS Marg (South segment)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.9100, 19.0500],
+          [72.9100, 19.0600],
+          [72.9100, 19.0700]
+        ]
+      }
+    }
+  ]
+}

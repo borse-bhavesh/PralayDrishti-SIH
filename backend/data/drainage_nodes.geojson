@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "Drainage / Stormwater Nodes — Mithi Catchment",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-001",
+        "name": "Andheri Subway Pump Station",
+        "type": "pump_station",
+        "capacity_lps": 2500,
+        "status": "operational",
+        "description": "Primary pump station for Andheri subway underpass"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8465, 19.1190] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-002",
+        "name": "Mithi River Outfall — Mahim",
+        "type": "outfall",
+        "capacity_lps": 8000,
+        "status": "operational",
+        "description": "Main outfall of Mithi River into Mahim Creek"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8420, 19.0520] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-003",
+        "name": "Vakola Nallah Junction",
+        "type": "junction",
+        "capacity_lps": 3200,
+        "status": "operational",
+        "description": "Major nallah confluence joining Mithi River near Vakola"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8650, 19.0700] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-004",
+        "name": "Powai Lake Weir",
+        "type": "weir",
+        "capacity_lps": 5000,
+        "status": "operational",
+        "description": "Overflow weir from Powai Lake into Mithi River"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.9080, 19.1260] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-005",
+        "name": "JVLR Culvert Node",
+        "type": "culvert",
+        "capacity_lps": 1500,
+        "status": "degraded",
+        "description": "Box culvert under JVLR, partially silted"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8830, 19.0840] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-006",
+        "name": "Kurla Storm Drain Inlet",
+        "type": "inlet",
+        "capacity_lps": 1800,
+        "status": "operational",
+        "description": "Storm drain inlet near Kurla station"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8790, 19.0650] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-007",
+        "name": "Sakinaka Detention Basin",
+        "type": "detention",
+        "capacity_lps": 4000,
+        "status": "operational",
+        "description": "Underground detention/retention basin at Sakinaka"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8890, 19.0900] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DN-008",
+        "name": "BKC Pump Station",
+        "type": "pump_station",
+        "capacity_lps": 3500,
+        "status": "operational",
+        "description": "Bandra-Kurla Complex stormwater pump station"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8700, 19.0590] }
+    }
+  ]
+}

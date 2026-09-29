@@ -1,0 +1,78 @@
+{
+  "type": "FeatureCollection",
+  "name": "Critical Infrastructure — Mithi Catchment",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CI-001",
+        "name": "Holy Spirit Hospital",
+        "type": "hospital",
+        "capacity": 350,
+        "priority": "critical",
+        "description": "Major hospital near Andheri, flood-vulnerable location"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8510, 19.1160] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CI-002",
+        "name": "Kurla Fire Station",
+        "type": "fire_station",
+        "capacity": null,
+        "priority": "high",
+        "description": "Primary fire station serving Kurla and BKC areas"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8780, 19.0720] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CI-003",
+        "name": "Powai Emergency Shelter",
+        "type": "shelter",
+        "capacity": 500,
+        "priority": "high",
+        "description": "Flood evacuation shelter at Hiranandani Gardens community hall"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.9100, 19.1200] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CI-004",
+        "name": "Jogeshwari Police Station",
+        "type": "police_station",
+        "capacity": null,
+        "priority": "medium",
+        "description": "Local police station coordinating flood emergency response"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8480, 19.0980] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CI-005",
+        "name": "MTNL Telephone Exchange — Vakola",
+        "type": "telecom",
+        "capacity": null,
+        "priority": "high",
+        "description": "Telecom exchange, critical for communications during flood events"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8600, 19.0680] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CI-006",
+        "name": "BEST Electric Substation — Andheri",
+        "type": "power_substation",
+        "capacity": null,
+        "priority": "critical",
+        "description": "220kV electrical substation, past flood damage history"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8560, 19.1080] }
+    }
+  ]
+}
